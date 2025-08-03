@@ -25,8 +25,8 @@ const Navbar = () => {
   const handleDownload = () => {
     // Using a temporary link to trigger download
     const link = document.createElement('a');
-    link.href = "/Sandeep_resume.pdf"; // Update with your actual resume path
-    link.download = 'Sandeep_resume.pdf';
+    link.href = "/Sandeep_Resume.pdf"; // Update with your actual resume path
+    link.download = 'Sandeep_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
